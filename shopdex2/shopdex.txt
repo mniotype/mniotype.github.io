@@ -1,0 +1,55 @@
+
+<!doctype HTML>
+<html>
+
+
+<head>
+<meta charset="utf-8">
+<title>shopdex</title>
+
+	<style type="text/css">
+
+		html{overflow:hidden;}
+
+		.index{width:17%; height:100%; top:0; position: absolute; background:#c8dbc8; left:83%; overflow:auto; font-family:Palatino; font-size:88%; font-weight:lighter;}
+        
+		.hibit{width:60%; height:100%; top:0%; position: absolute; background:#c8dbc8; left:0%; overflow:auto; font-family:Palatino; font-size:88%; font-weight:lighter;}
+
+        .vertban{width:23%; height:100%; left: 60%; top:0; position: absolute; background:#663366;};
+
+		.caketype1{};
+
+        .indextype1{};
+
+	</style>
+</head>
+
+<body>
+<div class='all'>
+
+	<div class='index' >index
+    <ul><a>..</a></ul>
+    </div>
+
+    <div class='vertban'><img src='https://www.zimbabweflora.co.zw/speciesdata/images/20/201140-4.jpg' width="100%" height='100%'/>
+    </div>
+
+    <div class='hibit'>exhibit
+
+    <!--<ul> <i>ㅎㅎ</i> </ul>-->
+<ul>
+
+	<ul id='' class='caketype1'><img src=''><a href=''>.</a></ul></br>
+
+	<ul id='' class='caketype1'><img src='' width='70%'/><a href=''>.</a></ul></br>
+
+
+</ul>
+
+
+    </div>
+
+</div>
+</body>
+
+</html>
