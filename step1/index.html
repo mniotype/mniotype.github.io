@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        ul {
+            list-style: none;
+        }
+        a {
+            display: block;
+            color:#000;
+            text-decoration: none;
+        }
+
+
+        #wrap {
+            width:1200px;
+            margin:auto;
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height:100px;
+            padding:0 20px;
+        }
+        #header h1 {
+            width:219px;
+            height:50px;
+            background:url(img/logo.png) no-repeat;
+            background-size:contain;
+            text-indent:-9999px;
+        }
+        #header #gnb {
+            display: flex;
+        }
+        #header #gnb li {
+            margin-left:50px;
+        }
+
+
+
+        #container {
+            /*height 이따 삭제*/
+            height:600px;
+            background:pink;
+        }
+
+        #container > div {
+            padding:100px 0;
+        }
+
+        #visual {
+
+        }
+
+        #portfolio {
+
+        }
+
+        #profile {
+
+        }
+
+
+
+        #footer {
+            height:100px;
+            background:gold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>신원 포트폴리오</h1>
+            <ul id="gnb">
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">profile</a></li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="visual"></div>
+            <div id="portfolio"></div>
+            <div id="profile"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
