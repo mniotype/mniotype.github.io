@@ -10,8 +10,34 @@ a {
     display: block;
     color:#000;
     text-decoration: none;
+    font-family:'Courier New', Courier, monospace
+
+
+}
+.statement {
+    color:darkgreen;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 5px;
+
 }
 
+.collapsible {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    background-color: white;
+  }
+  .content {
+    margin-top: 10px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+html {zoom: 125%;}
 
 #wrap {
     width:1200px;
@@ -21,22 +47,24 @@ a {
 #header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     height:100px;
     padding:0 20px;
 }
 #header h1 {
-    width:219px;
+    width:50%;
     height:50px;
-    background:url(img/logo.png) no-repeat;
+    background:url(img/.png) no-repeat;
     background-size:contain;
     text-indent:-9999px;
 }
 #header #gnb {
     display: flex;
+    justify-content: right;
 }
 #header #gnb li {
     margin-left:50px;
+    font-size: small;
 }
 
 
@@ -47,28 +75,50 @@ a {
 
 #container > div {
     padding:100px 0;
-    border-bottom:1px dotted #ccc;
 }
 
 #visual {
     width:100%;
-    height:600px;
-    background:pink;
+    height:100px;
+    background:limegreen;
 }
 
 #portfolio {
 
 }
+
+.portfolio-textList{
+    display: flexbox;
+}
+
+.portfolio-textList li{
+    margin-bottom: 40px;
+}
+.portfolio-textList a{
+    display: inline;
+    font-size: small;
+}
+.portfolio-textList h6{
+    margin-right: 40px;
+    display: inline;
+    color:mediumseagreen;
+    font-size:x-small;
+    font-weight: normal;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+
 .portfolio-list {
-    display:flex;
+    display:flexbox;
     flex-wrap:wrap;
     justify-content: space-between;
 }
 .portfolio-list li {
-    width:calc(100% / 3 - 20px);
-    height:300px;
+    width:calc(100% / 9 - 20px);
+    height:100px;
     margin-bottom:20px;
-    background:pink;
+    background:limegreen;
     overflow: hidden;
 }
 .portfolio-list li img {
